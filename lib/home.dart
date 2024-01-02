@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
               leading: Icon(Icons.person_add),
               title: const Text('Add Employee',style: TextStyle(fontSize: 20.0)), 
               onTap: () {
-                // updates the state of app
+                
                 Navigator.pop(context);
                 Navigator.push(
                   context,
@@ -216,7 +216,7 @@ class _HomeState extends State<Home> {
                             color:currentTab == 3 ? Colors.black :Colors.grey
                             ),
                             Text(
-                              'Settings',
+                              'Setting',
                               style: TextStyle(color:currentTab==3? Colors.black:Colors.grey
                               ),
                             )
